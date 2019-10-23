@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Domain_TipoInsumo" id="0549D125-3DE2-597B-AB99-FF389B110789">
+<createdBy>Bufonz</createdBy>
+<createdTime>2019-10-23 01:26:14 UTC</createdTime>
+<comment><![CDATA[Tipos de Insumos proporcionados para el evento ]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="Alimentos" description=""/>
+<valueDef value="Bebidas" description=""/>
+<valueDef value="Mano de Obra" description=""/>
+<valueDef value="Mobiliario" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Domain_Categoria" id="2477C80F-876F-9B56-D4B5-EBCD1DF1A40A">
+<createdBy>Bufonz</createdBy>
+<createdTime>2019-10-23 01:23:12 UTC</createdTime>
+<comment><![CDATA[Categoria a la que pertenecen los participantes respecto a un intervalo de edades]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="A" description=""/>
+<valueDef value="B" description=""/>
+<valueDef value="C" description=""/>
+<valueDef value="D" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Domain_TipoAlergia" id="A84A2C92-D86A-72C0-38FA-C03CD5456480">
+<createdBy>Bufonz</createdBy>
+<createdTime>2019-10-23 01:15:41 UTC</createdTime>
+<comment><![CDATA[Tipos de alergías existentes]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="Alimentarias" description=""/>
+<valueDef value="Dérmicas" description=""/>
+<valueDef value="Medicamentos" description=""/>
+<valueDef value="Plantas o Insectos" description=""/>
+<valueDef value="Respiratorias" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Domain_NombreRama" id="AFB5E314-0C3F-4823-A605-6D34C254710D">
+<createdBy>Bufonz</createdBy>
+<createdTime>2019-10-23 01:08:49 UTC</createdTime>
+<comment><![CDATA[Nombre de la rama a la que pertenece el participante]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<listOfValues>
+<valueDef value="Femenil" description=""/>
+<valueDef value="Varonil" description=""/>
+</listOfValues>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Domain_Semestre" id="B9A558E2-780C-8ED0-BF13-4A2991E0FF1A">
+<createdBy>Bufonz</createdBy>
+<createdTime>2019-10-23 01:01:24 UTC</createdTime>
+<comment><![CDATA[Semestre académico cursado]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<synonym>Grado</synonym>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>12</endValue>
+</rangeDef>
+</listOfRanges>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>Bufonz</createdBy>
+<createdTime>2019-10-23 00:47:29 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>
