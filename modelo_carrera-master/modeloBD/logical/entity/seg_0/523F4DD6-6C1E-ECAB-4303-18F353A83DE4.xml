@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="523F4DD6-6C1E-ECAB-4303-18F353A83DE4" name="GANADOR">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:57:33 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDGANADOR" id="5B02E8C6-0B7B-0042-A410-DD565AB572CD">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:57:40 UTC</createdTime>
+<comment><![CDATA[El número identificador del ganador.]]></comment>
+<notes><![CDATA[UNIQUE, NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPREMIO1" id="6AE3E3B3-E18F-A2D2-92F0-24BFB5AB7AE1">
+<createdBy>radge</createdBy>
+<createdTime>2019-10-22 03:56:39 UTC</createdTime>
+<comment><![CDATA[Número único de indentificación de un PREMIO]]></comment>
+<generatorID>DD23F9BF-B4D6-3114-CE27-BC169C466977</generatorID>
+<notes><![CDATA[UNIQUE. NOT NULL]]></notes>
+<ownerDesignName>modeloBD</ownerDesignName>
+<referedAttribute>57730CA9-EDCE-B342-13D1-4D3690A87792</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="255DE78F-3A75-D09F-4CF3-A219C2565E2B" name="Ganadores PK">
+<createdBy>Carlos Fernando</createdBy>
+<createdTime>2019-10-08 13:58:23 UTC</createdTime>
+<ownerDesignName>modeloBD</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B02E8C6-0B7B-0042-A410-DD565AB572CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
